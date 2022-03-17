@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  font-family:sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body > .wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.header {
+  padding: 15px 0;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.header > .header-content {
+  height:100%;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.header > .header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header > .header-content > .nav {
+  display: flex;
+}
+
+.header
+> .header-content
+> .nav 
+> img {
+  height: 28px;
+  width: 80px;
+}
+
+.header
+> .header-content 
+> .nav 
+> ul {
+  display: flex;
+  padding: 5px 0;
+}
+
+.header 
+> .header-content 
+> .nav 
+> ul 
+> li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.header 
+> .header-content 
+> .nav 
+> ul 
+> li:nth-child(1){
+  position: relative;
+  height: 20px;
+  width: 40px;
+}
+
+.header 
+> .header-content 
+> .nav 
+> ul 
+> li:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 28px;
+  background-color:#008000;
+  left: 0px;
+  bottom: 0px;
+}
+
+.header 
+> .header-content 
+> .started-button {
+  height: 30px;
+  width: 130px;
+  border-radius: 20px;
+  background-color: #008000;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 0;
+}
+.container > .banner-container {
+  height: 480px;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container 
+> .banner-container
+> .img-container {
+  height: 100%;
+  width: 62%;
+  background-image: url("https://d3hr9drcfoe7a7.cloudfront.net/telegram/715574836/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container 
+> .banner-container 
+> .img-container
+> .title-post {
+  height: 180px;
+  width: 71%;
+  background-color: white;
+  position: absolute;
+  left: 32px;
+  bottom: 34px;
+  opacity: 0.9;
+}
+
+.container 
+> .banner-container
+> .img-container
+> .title-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.container 
+> .banner-container
+> .img-container
+> .title-post
+> .editorial-title {
+  height: 20px;
+  width: 68px;
+  color: white;
+  background-color: #008000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+  font-size: 10px;
+}
+
+.title-post > h3 {
+  padding: 26px 20px 20px 32px;
+  font-size: 27px;
+}
+
+.title-post > .date {
+  font-size: 9px;
+  padding: 0 0 18px 32px;
+  color:#BBBBBB;
+}
+
+.banner-container > .menu {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu > .featured-story {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color:#EEEEEE;
+}
+
+.horizontal-line > p {
+  width: 30px;
+  height: 2px;
+  background-color:#008000;
+}
+
+.menu > .story-content {
+  height: calc(100%/4 - 20px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.title-infor {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 20px; 
+}
+
+.title-infor > div:first-child {
+  padding-top:2px;
+  font-size: 14px;
+  font-weight: 700;
+} 
+
+
+.title-infor > div:last-child {
+  font-size: 10px;
+  color:#BBBBBB;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
